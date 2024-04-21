@@ -23,11 +23,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/init/init.fuxi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.fuxi.rc \
 
 # Euicc
-# PRODUCT_PACKAGES += \
-#     XiaomiEuicc
-
-PRODUCT_COPY_FILES += \
-    frameworks/native/data/etc/android.hardware.telephony.euicc.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/android.hardware.telephony.euicc.xml
+PRODUCT_PACKAGES += \
+    XiaomiEuicc
 
 # Overlay
 PRODUCT_PACKAGES += \
