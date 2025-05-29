@@ -18,17 +18,13 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     IFAAService
 
-# Remove unwanted packages
-PRODUCT_PACKAGES += \
-    Remove
-
 # Init
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/init/init.fuxi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.fuxi.rc \
 
 # Euicc
-PRODUCT_PACKAGES += \
-    XiaomiEuicc
+# PRODUCT_PACKAGES += \
+#     XiaomiEuicc
 
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.euicc.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/android.hardware.telephony.euicc.xml

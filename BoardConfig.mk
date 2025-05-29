@@ -20,9 +20,13 @@ BOARD_VENDOR_KERNEL_MODULES_LOAD += \
 
 BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD += \
 	fts_touch_spi.ko
+
+# Libinit
+$(call soong_config_set,libinit,vendor_init_lib,//$(DEVICE_PATH)/init:libinit_fuxi)
 	
 # Display
 TARGET_SCREEN_DENSITY := 440
+$(call soong_config_set, qtidisplay, use_ycrcb_camera_encode, true)
 
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := fuxi
