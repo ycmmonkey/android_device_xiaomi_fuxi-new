@@ -132,7 +132,7 @@ odm/firmware/cs35l41-dsp1-spk-cali.wmfw
 odm/firmware/cs35l41-dsp1-spk-prot.wmfw
 
 # Camera
-system_ext/lib64/vendor.xiaomi.hardware.campostproc@1.0.so:vendor/lib64/vendor.xiaomi.hardware.campostproc@1.0.so
+system_ext/lib64/vendor.xiaomi.hardware.campostproc@1.0.so:odm/lib64/vendor.xiaomi.hardware.campostproc@1.0.so
 odm/bin/hw/vendor.qti.camera.provider-service_64
 odm/etc/camera/CFR_para_UW_V01.bin
 odm/etc/camera/GpuKernelRepo.pb
@@ -989,7 +989,7 @@ odm/lib64/camera/plugins/com.xiaomi.plugin.supermoon.so
 odm/lib64/camera/plugins/com.xiaomi.plugin.tsskinbeautifier.so
 
 # Camera sensors
-odm/lib64/camera/aon_front.pb
+odm/lib64/camera/aon_front.pb;SYMLINK=vendor/lib64/camera/aon_front.pb
 odm/lib64/camera/com.qti.actuator.fuxi_semco_imx800_ak7314_wide_actuator.so
 odm/lib64/camera/com.qti.actuator.fuxi_semco_s5k3k1_ak7314_tele_actuator.so
 odm/lib64/camera/com.qti.actuator.fuxi_semco_s5k3k1_ak7314_tele_actuator_ii.so
