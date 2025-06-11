@@ -139,7 +139,7 @@ odm/firmware/cs35l41-dsp1-spk-cali.wmfw
 odm/firmware/cs35l41-dsp1-spk-prot.wmfw
 
 # Camera
-system_ext/lib64/vendor.xiaomi.hardware.campostproc@1.0.so:odm/lib64/vendor.xiaomi.hardware.campostproc@1.0.so
+system_ext/lib64/vendor.xiaomi.hardware.campostproc@1.0.so:vendor/lib64/vendor.xiaomi.hardware.campostproc@1.0.so
 odm/bin/hw/vendor.qti.camera.provider-service_64
 odm/etc/camera/af_class_all.dlc
 odm/etc/camera/af_class_human.dlc
