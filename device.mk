@@ -25,14 +25,17 @@ PRODUCT_PACKAGES += \
 
 # Audio
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/config/audio/mixer_paths_kalama_mtp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_kalama/mixer_paths_kalama_mtp.xml \
-    $(LOCAL_PATH)/config/audio/resourcemanager_kalama_mtp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_kalama/resourcemanager_kalama_mtp.xml
+    $(LOCAL_PATH)/configs/audio/mixer_paths_kalama_mtp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_kalama/mixer_paths_kalama_mtp.xml \
+    $(LOCAL_PATH)/configs/audio/resourcemanager_kalama_mtp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_kalama/resourcemanager_kalama_mtp.xml
 
 # Init
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/init/init.fuxi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.fuxi.rc \
 
 # Euicc
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/permisisons/privapp-permissions-euiccgoogle.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-euiccgoogle.xml
+    
 PRODUCT_PACKAGES += \
     XiaomiEuicc
 
