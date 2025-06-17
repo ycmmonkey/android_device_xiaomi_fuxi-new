@@ -38,6 +38,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     SettingsProviderResFuxi \
     ApertureOverlayFuxi \
+    EuiccResFuxi \
     FrameworkResOverlayFuxi \
     SettingsOverlayFuxi \
     SystemUIOverlayFuxi \
